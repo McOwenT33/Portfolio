@@ -34,8 +34,8 @@
                 </ul>
             </div>
         </div>
-    </nav><wbr>
-    <section id="about">
+    </nav><hr>
+    <section id="about"><wbr>
         <div class="row">
             <div class="col-sm-4"> 
               <img src="tee.png" class="rounded float-start img-thumbnail img-fluid" alt="MTS" width="200" height="200">
@@ -56,14 +56,16 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h3>Resume</h3>
-                     <a href="CV.pdf" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Download CV</a>
+                    <div class="text-center">
+                        <a href="CV.pdf" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Download CV</a>
+                    </div><wbr>
+                     
                 </div>
-                
                 <div class="col-sm-4">
                     <h4>Education</h4><wbr>
                     <div class="row">
                         <div class="col-sm-4">
-                         <img src="UZ.png">  
+                         <img src="uz.png">  
                         </div>
                         <div class="col-sm-8">
                             <h5>University Of Zimbabwe</h5>
@@ -80,16 +82,16 @@
                                 <li class="list-group-item">INE eLearning Junior Penetration &nbsp
                                     <a href="https://certs.ine.com/36776bf1-fe86-4c24-8fc5-0fca45342547#acc.fMbrp2I1">View</a>
                                 </li>
-                                <li class="list-group-item">ITIL® 4 Foundation Certificate in IT Service Management &nbsp
+                                <li class="list-group-item">ITIL® 4 Foundation Certificate in IT Service Management
                                     <a href="ITIL.pdf">View</a>
                                 </li>
-                                <li class="list-group-item">INE Certified Cloud Associate &nbsp
+                                <li class="list-group-item">INE Certified Cloud Associate
                                     <a href="https://images.credential.net/embed/p8oi9mpk.png">View</a>
                                 </li>
-                                <li class="list-group-item">TryHackMe Pre Security &nbsp
+                                <li class="list-group-item">TryHackMe Pre Security
                                     <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-3JLSPP2DI1.pdf">View</a>
                                 </li>
-                                <li class="list-group-item">Fortinet Certified Fundamentals Cybersecurity &nbsp
+                                <li class="list-group-item">Fortinet Certified Fundamentals Cybersecurity
                                     <a href="https://www.credly.com/badges/cfed9d91-9f07-4d9d-86b3-9c1b50727049/linked_in_profile">View</a>
                                 </li> 
                                       
@@ -97,28 +99,28 @@
                         </div>
                         <div class="col-sm-6">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">CompTIA Security+ &nbsp
+                                <li class="list-group-item">CompTIA Security+
                                     <a href="https://www.credly.com/badges/bcbde0ee-c3d5-425d-8b6b-c9122ffa0fcf/linked_in_profile">View</a>
                                 </li>
-                                <li class="list-group-item">(ISC) 2 Certified in Cybersecurity (CC) &nbsp
+                                <li class="list-group-item">(ISC) 2 Certified in Cybersecurity (CC)
                                     <a href="https://www.credly.com/badges/85afd060-06b1-40a6-86e3-11c5f9c53207/linked_in_profile">View</a>
                                 </li>
-                                <li class="list-group-item">Microsoft Azure Fundamentals (AZ900) &nbsp
+                                <li class="list-group-item">Microsoft Azure Fundamentals (AZ900)
                                     <a href="https://learn.microsoft.com/en-gb/users/mcowensauramba-8279/credentials/8899daa52c28d2df?ref=https%3A%2F%2Fwww.linkedin.com%2F">View</a>
                                 </li>
-                                <li class="list-group-item">TryHackMe Cyber Security 101 &nbsp
+                                <li class="list-group-item">TryHackMe Cyber Security 101
                                     <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-VLQ0WWJLOP.pdf">View</a>
                                 </li>
-                                <li class="list-group-item">Fortinet Introduction to the Threat Landscape 1.0 &nbsp
+                                <li class="list-group-item">Fortinet Introduction to the Threat Landscape 1.0
                                     <a href="https://www.credly.com/badges/052eff27-1ee1-4bec-9348-a05195c496d0/linked_in_profile">View</a>
                                 </li>    
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="row">
                     <h4>Work Experience</h4>
-                    <!--
                     <div class="col-sm-3">
                         <h5>Riozim</h5>
                     </div>
@@ -131,8 +133,8 @@
                     <div class="col-sm-3">
                         <h5>Ecobank</h5>
                     </div>
-                    -->
                 </div>
+                -->
             </div>
             
             
@@ -141,9 +143,27 @@
     </section><wbr><hr>
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <div class="project">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/McT33.png" alt="Your Image Badge" />
-            
+        <div class="container">
+            <ul class="nav nav-tabs ms-auto nav-justified">
+                <li>
+                    <a data-bs-toggle="tab" href="#thm" class="nav-link active" aria-current="page">TryHackMe</a>
+                </li>
+                <li>
+                    <a data-bs-toggle="tab" href="#htb" class="nav-link">HackTheBox</a>
+                </li>                    
+            </ul>
+            <div class="tab-content">
+                <wbr>
+                <div id="thm" class="tab-pane active">
+                    <img src="https://tryhackme-badges.s3.amazonaws.com/McT33.png" alt="Your Image Badge" />
+                    <a href="https://tryhackme.com/r/recapme/2024/McT33?t=17-12-2024">TryHackMe</a> 
+                    <!-- Add more projects as needed -->
+                </div>
+                <div id="htb" class="tab-pane fade">
+                    <h5>Test</h5>   
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>      
         </div>
         <!-- Add more projects as needed -->
     </section><wbr><hr>
@@ -156,6 +176,8 @@
         <p class="navbar-brand" align="justify">&copy; 2024 McOwen Tee Sauramba</p>
     </footer>
 </div>
+
     
 </body>
 </html>
+
